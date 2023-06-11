@@ -6,10 +6,10 @@ import Gradient from '../assets/background/gradient.png'
 import Jade from '../assets/background/jade.png'
 import Mint from '../assets/background/mint.png'
 import LightGray from '../assets/background/light gray.png'
-import Light from '../assets/background/light.png'
+import Smoky from '../assets/background/smoky.png'
 import Lime from '../assets/background/lime.png'
 import Orange from '../assets/background/orange.png'
-import Purple from '../assets/background/purple.png'
+import LightPurple from '../assets/background/light purple.png'
 import { useEffect, useState } from 'react'
 import Loading from '../components/loading'
 import query from '../apis/query'
@@ -42,8 +42,8 @@ const attributes = [
     value: 'Light Gray',
   },
   {
-    img: Light,
-    value: 'Light',
+    img: Smoky,
+    value: 'Smoky',
   },
   {
     img: Lime,
@@ -54,8 +54,8 @@ const attributes = [
     value: 'Orange',
   },
   {
-    img: Purple,
-    value: 'Purple',
+    img: LightPurple,
+    value: 'Light Purple',
   },
 ]
 
