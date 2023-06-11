@@ -12,8 +12,8 @@ import FireFighter from '../assets/head/fire fighter.png'
 import Flame from '../assets/head/flame.png'
 import Habibi from '../assets/head/habibi.png'
 import Halo from '../assets/head/halo.png'
-import Hat1 from '../assets/head/hat1.png'
-import Hat2 from '../assets/head/hat2.png'
+import CowboyHat from '../assets/head/cowboy hat.png'
+import BucketHat from '../assets/head/bucket hat.png'
 import Jingu from '../assets/head/jingu.png'
 import Medic from '../assets/head/medic.png'
 import Mohawk from '../assets/head/mohawk.png'
@@ -33,35 +33,35 @@ import update from '../apis/update'
 const attributes = [
   {
     img: BlackHoodie,
-    value: 'Banana',
+    value: 'Black Hoodie',
   },
   {
     img: BlackZangai,
-    value: 'Blue Coat',
+    value: 'Black Zangai',
   },
   {
     img: BlueBandana,
-    value: 'Blue Plaid',
+    value: 'Blue Bandana',
   },
   {
     img: BluePika,
-    value: 'Boss Suit',
+    value: 'Blue Pika',
   },
   {
     img: Bunnet,
-    value: 'Cocktail',
+    value: 'Bunnet',
   },
   {
     img: Copter,
-    value: 'Green Coat',
+    value: 'Copter',
   },
   {
     img: Crown,
-    value: 'Purple Plaid',
+    value: 'Crown',
   },
   {
     img: DevilHorn,
-    value: 'Green Shade',
+    value: 'Devil Horn',
   },
   {
     img: FireFighter,
@@ -69,23 +69,23 @@ const attributes = [
   },
   {
     img: Flame,
-    value: 'Nouns',
+    value: 'Flame',
   },
   {
     img: Habibi,
-    value: 'Orange Shade',
+    value: 'Habibi',
   },
   {
     img: Halo,
-    value: 'Purple Beam',
+    value: 'Halo',
   },
   {
-    img: Hat1,
-    value: 'Purple Glasses',
+    img: CowboyHat,
+    value: 'Cowboy Hat',
   },
   {
-    img: Hat2,
-    value: 'Red Eye',
+    img: BucketHat,
+    value: 'Bucket Hat',
   },
   {
     img: Jingu,

@@ -30,7 +30,7 @@ const attributes = [
   },
   {
     img: DarkBrown,
-    value: 'DarkBrown',
+    value: 'Dark Brown',
   },
   {
     img: Ghost,
