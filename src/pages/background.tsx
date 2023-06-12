@@ -73,7 +73,7 @@ const Background = () => {
 
   const handleIncrementClick = () => {
     setLoading(true)
-    if (index <= 2081) {
+    if (index <= 2080) {
       setIndex((index) => index + 1)
     }
   }
