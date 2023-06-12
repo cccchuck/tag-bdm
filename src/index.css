@@ -96,6 +96,11 @@ button:focus-visible {
   justify-content: space-between;
 }
 
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
 .attributes {
   margin-top: 2em;
   display: grid;

@@ -101,7 +101,21 @@ const Head = () => {
 
   return (
     <div className="app">
+      <div className="link">
+        <a href="/background">背景颜色</a>
+        <a href="/head">头</a>
+        <a href="/body">身体</a>
+        <a href="/eye">眼睛</a>
+        <a href="/mouth">嘴巴</a>
+        <a href="/clothes">衣服</a>
+      </div>
       <div className="container">
+        {!loading && (
+          <p className="value">
+            <span style={{ fontWeight: 'bold' }}>当前进度：</span>
+            {index + 1} / 2082
+          </p>
+        )}
         <img
           className="bdmonkey"
           src={`https://ord-mirror.magiceden.dev/content/${inscriptions[index].id}`}

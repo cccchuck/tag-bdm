@@ -105,6 +105,14 @@ const Background = () => {
 
   return (
     <div className="app">
+      <div className="link">
+        <a href="/background">背景颜色</a>
+        <a href="/head">头</a>
+        <a href="/body">身体</a>
+        <a href="/eye">眼睛</a>
+        <a href="/mouth">嘴巴</a>
+        <a href="/clothes">衣服</a>
+      </div>
       <div className="container">
         {!loading && (
           <p className="value">
