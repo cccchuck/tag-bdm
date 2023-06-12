@@ -148,7 +148,7 @@ const Head = () => {
 
   const handleImgClick = async (value: string) => {
     setLoading(true)
-    const result = await update(inscriptions[index].id, 'Background', value)
+    const result = await update(inscriptions[index].id, 'Head', value)
     setLoading(false)
     if (result.success) {
       console.log('更新成功')
