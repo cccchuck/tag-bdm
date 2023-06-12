@@ -108,22 +108,58 @@ const Background = () => {
   return (
     <div className="app">
       <div className="link">
-        <a href="/background" onClick={() => navigate('/background')}>
+        <a
+          href="/background"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/background')
+          }}
+        >
           背景颜色
         </a>
-        <a href="/head" onClick={() => navigate('/head')}>
+        <a
+          href="/head"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/head')
+          }}
+        >
           头
         </a>
-        <a href="/body" onClick={() => navigate('/body')}>
+        <a
+          href="/body"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/body')
+          }}
+        >
           身体
         </a>
-        <a href="/eye" onClick={() => navigate('/eye')}>
+        <a
+          href="/eye"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/eye')
+          }}
+        >
           眼睛
         </a>
-        <a href="/mouth" onClick={() => navigate('/mouth')}>
+        <a
+          href="/mouth"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/mouth')
+          }}
+        >
           嘴巴
         </a>
-        <a href="/clothes" onClick={() => navigate('/clothes')}>
+        <a
+          href="/clothes"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('/clothes')
+          }}
+        >
           衣服
         </a>
       </div>
