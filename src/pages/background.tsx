@@ -106,6 +106,12 @@ const Background = () => {
   return (
     <div className="app">
       <div className="container">
+        {!loading && (
+          <p className="value">
+            <span style={{ fontWeight: 'bold' }}>当前进度：</span>
+            {index + 1} / 2082
+          </p>
+        )}
         <img
           className="bdmonkey"
           src={`https://ord-mirror.magiceden.dev/content/${inscriptions[index].id}`}
