@@ -15,6 +15,7 @@ import Loading from '../components/loading'
 import query from '../apis/query'
 import { Inscription } from '../types'
 import update from '../apis/update'
+import { useNavigate } from 'react-router-dom'
 
 const attributes = [
   {
@@ -63,6 +64,7 @@ const Background = () => {
   const [index, setIndex] = useState(0)
   const [loading, setLoading] = useState(true)
   const [currentValue, setCurrentValue] = useState<string>()
+  const navigate = useNavigate()
 
   const handleDecrementClick = () => {
     setLoading(true)
@@ -106,12 +108,24 @@ const Background = () => {
   return (
     <div className="app">
       <div className="link">
-        <a href="/background">背景颜色</a>
-        <a href="/head">头</a>
-        <a href="/body">身体</a>
-        <a href="/eye">眼睛</a>
-        <a href="/mouth">嘴巴</a>
-        <a href="/clothes">衣服</a>
+        <a href="/background" onClick={() => navigate('/background')}>
+          背景颜色
+        </a>
+        <a href="/head" onClick={() => navigate('/head')}>
+          头
+        </a>
+        <a href="/body" onClick={() => navigate('/body')}>
+          身体
+        </a>
+        <a href="/eye" onClick={() => navigate('/eye')}>
+          眼睛
+        </a>
+        <a href="/mouth" onClick={() => navigate('/mouth')}>
+          嘴巴
+        </a>
+        <a href="/clothes" onClick={() => navigate('/clothes')}>
+          衣服
+        </a>
       </div>
       <div className="container">
         {!loading && (
