@@ -90,7 +90,7 @@ const Head = () => {
     const result = await query(inscriptions[index].id)
     if (result.success) {
       const attribute = (result.data as Inscription).meta.attributes.filter(
-        (item) => item.trait_type === 'Head'
+        (item) => item.trait_type === 'Mouth'
       )
       setCurrentValue(attribute[0].value || '暂无')
       setLoading(false)
